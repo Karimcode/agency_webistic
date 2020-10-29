@@ -1,0 +1,46 @@
+@import "~bootstrap/scss/bootstrap";
+
+h4 {
+  margin: 20px 0 15px 20px;
+}
+
+p {
+  margin: 20px 0 0 20px;
+}
+
+// Header
+
+Nav {
+  img {
+    margin-left: 15px;
+  }
+
+  a {
+    color: #f1f1f1;
+
+    &:hover {
+      color: #9e9a9a;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Case
+
+.list {
+  display: inline;
+  border-radius: 0;
+  width: 20%;
+  margin: 20px 15px 20px 1px;
+  
+  a {
+    color: #343A40;
+
+    &:hover {
+      text-decoration: none;
+      color: #343A40;
+    }
+  }
+
+}
