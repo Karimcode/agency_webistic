@@ -29,8 +29,8 @@ const Header = ({language, changeLanguage}) => {
         </Nav.Link>
       </Nav>
       <Nav className="ml-auto" onClick={changeLanguage}>
-        {language === 'en' &&(<img alt="flag for french Language" src={fr} width="40" height="30" className="d-inline-block align-top" />)}
-        {language === 'fr' &&(<img alt="flag for english Language" src={en} width="40" height="30" className="d-inline-block align-top " />)}
+        {language === 'EN' &&(<img alt="flag for french Language" src={fr} width="40" height="30" className="d-inline-block align-top" />)}
+        {language === 'FR' &&(<img alt="flag for english Language" src={en} width="40" height="30" className="d-inline-block align-top " />)}
       </Nav>
     </Navbar>
   )

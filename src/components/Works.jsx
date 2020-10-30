@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from "react-intl";
 import { Switch, Route, useRouteMatch, useLocation} from "react-router-dom";
-import CaseBar from './CaseBar'
+import CaseList from './CaseList'
 import StudyCase from './Data/DisplayCase';
 
 const Works = () => {
@@ -18,7 +18,7 @@ const Works = () => {
         <p>
           <FormattedMessage id="works.paragraph" />
         </p>
-      <CaseBar />
+      <CaseList />
       </div> 
       : 
       <div>
