@@ -29,13 +29,12 @@ const App = () => {
   }, []);
 
   const changeLanguage = () => {
-    console.log(language)
-    if (language === 'FR') {
-      setLanguage('EN');
-      localStorage.setItem('language', 'EN');
-    } else {
+    if (language === 'EN') {
       setLanguage('FR');
       localStorage.setItem('language', 'FR');
+    } else {
+      setLanguage('EN');
+      localStorage.setItem('language', 'EN');
     }
   }
 
